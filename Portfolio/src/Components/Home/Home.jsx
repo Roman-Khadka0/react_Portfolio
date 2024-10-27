@@ -28,6 +28,7 @@ function Lightmode() {
       Light
     </button>
   </div>
+  
   )
 }
 
