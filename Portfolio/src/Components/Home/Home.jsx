@@ -29,7 +29,7 @@ function Home() {
   >
      <div className="flex justify-center items-center h-screen ml-40"> {/* Adjusted to ml-40 for more space */}
   <img 
-    src="https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/457094261_1051054113036833_1337046102438187402_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=v8uiokWKYo0Q7kNvgESCFFj&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&_nc_gid=AXOlSBIZslUMksbPgqB8QdD&oh=00_AYCU-2IjcYxCV_DXVOiasf583INGWobQ87qkSnhqFcJu-w&oe=672439F0"
+    src="https://scontent.fjkr2-1.fna.fbcdn.net/v/t39.30808-6/457094261_1051054113036833_1337046102438187402_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1q8bMCr8b98Q7kNvgG5l-Qx&_nc_zt=23&_nc_ht=scontent.fjkr2-1.fna&_nc_gid=AZ_Ka_Jcfyy7pyHQbWf5n4E&oh=00_AYAPAhqJ4rGLd58AjV-B9njQy185CEqWyNsB62iMJs5rNA&oe=672C22F0"
     alt="profile"
     className="w-[64rem] h-[48rem] rounded-full border-4 border-gray-300 shadow-lg object-cover ml-11"
   />
@@ -46,7 +46,24 @@ function Home() {
     <h3 className="text-3xl mb-5 text-red-900">
       <b>Web Developer</b>
     </h3>
+    <div className='gap-5 mt-4'>
+    <a
+    href='https://github.com/Roman-Khadka0'
+    target="_blank"
+    className="hover:bg-red-900 outline-none text-black px-3 py-3 rounded-2xl text-2xl"
+        style={{ color: fontColor }}><b>Github <i className="fab fa-github mr-2"></i>
+</b>
+    </a>
+
+    <Link
+    to="/contact"
+    className="hover:bg-red-900 outline-none text-black px-3 py-3 rounded-2xl text-2xl"
+        style={{ color: fontColor }}
+        ><b>Contact me</b> 
+    </Link>
+    </div>
   </div>
+  
 </div>
 
 
