@@ -82,7 +82,7 @@ function Home() {
 
     <button
           onClick={fontChange}
-          className="outline-none text-white px-4 py-1 rounded-full shadow-lg"
+          className="outline-none text-white px-4 py-1 rounded-full shadow-lg mt-5"
           style={{ backgroundColor:'grey' }}
     >
       <i className="fas fa-moon mr-2"></i> 
